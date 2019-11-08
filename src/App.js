@@ -1,18 +1,24 @@
 import React from "react";
+import NasaList from "./Components/NasaList";
 import "./App.css";
-// import axios from 'axios';
+import Carousels from "./Components/Carousels";
 
-
-// useEffect(() =>
-//   axios
-//   .get("https://api.nasa.gov/planetary/apod?api_key=LDKzXhsnHsjwl11xa5ufzIQ9s5UbRojub4g0e1Dd")
-//   .then(response =>{
-//     set
-//   }))
 function App() {
+
   return (
+    // <div>
+    //   <Jumbotron>
+    //     <Container>
+    //       <h1>
+            
+    //       </h1>
+    //     </Container>
+    //   </Jumbotron>
+    // </div>
     <div className="App">
-      <p>NASA</p>
+      <h1>Learn Your Galaxy!</h1>
+      <Carousels/>
+      <NasaList/>
     </div>
   );
 }
